@@ -4,11 +4,15 @@ import './CustomNavbar.css';
 class CustomNavbar extends Component {
     render() {
         return (
-            <div>
-                <ul className="nav">
+            <div className="navbar">
+                
+            
+            <div className="nav">
+                <ul>
                     <li><NavLink exact to="/">Home</NavLink></li>
                     <li><NavLink exact to="/articles">Articles</NavLink></li>
                 </ul>
+            </div>
             </div>
         );
     }
