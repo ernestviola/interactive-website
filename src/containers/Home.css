@@ -1,0 +1,13 @@
+.container {
+    margin-top: 20vh;
+    min-width: 100vh;
+    border-color: beige;
+    border-style: dotted;
+}
+
+.text-box {
+    margin: 100px;
+    height: 100px;
+    border-color: black;
+    border-style: solid;
+}
