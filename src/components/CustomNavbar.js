@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import {NavLink} from 'react-router-dom';
 
 class CustomNavbar extends Component {
     render() {
         return (
-            <nav>
-                
-            </nav>
+            <div>
+                <NavLink exact to="/">Home</NavLink>
+            </div>
         );
     }
 }
