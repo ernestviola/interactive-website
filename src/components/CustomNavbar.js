@@ -29,7 +29,6 @@ class CustomNavbar extends Component {
                 <span className="navbar-toggle" id="js-navbar-toggle" onClick={this.handleClick}>
                     <FontAwesomeIcon icon={faCoffee} />
                 </span>
-                {/* <a href="#" class="logo">Ernest.</a> */}
                 <NavLink exact to="/" className="logo">Ernest.</NavLink>
                 <ul className={`main-nav ${this.state.clicked ? 'active' : ''}`} id="js-menu">
                     <li><NavLink exact to="/" className="nav-links">Home</NavLink></li>
