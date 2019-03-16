@@ -22,7 +22,6 @@ class CustomNavbar extends Component {
 
 
     render() {
-        // var className = this.state.clicked ? 'navbar-toggle' : 'base-state';
         return (
             
             <nav class="navbar">
