@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import CustomNavbar from './components/CustomNavbar'
+import Footer from './components/Footer'
 import Routes from './Routes';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -16,6 +17,7 @@ class App extends Component {
       <div className="content">
       <Routes />
       </div>
+      <Footer />
       
       </div>
     );
