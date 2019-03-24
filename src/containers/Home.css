@@ -1,8 +1,7 @@
 .container {
-    margin-top: 20vh;
     min-width: auto;
-    border-color: beige;
-    border-style: dotted;
+    /* border-color: beige; */
+    /* border-style: dotted; */
 }
 
 
@@ -12,8 +11,8 @@
     .text-box {
         margin: 100px;
         height: 100px;
-        border-color: black;
-        border-style: solid;
+        /* border-color: black;
+        border-style: solid; */
     }
 
 
