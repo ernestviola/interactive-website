@@ -9,6 +9,7 @@ class Home extends Component {
             <div className="Home">
                 <div className="container">
                     <div className="text-box">
+                        Test
                         <Typist avgTypingDelay={10} blink={true} >
                         Hey my name is Ernest and this is my Website.
                         <Typist.Backspace count={"Hey my name is Ernest and this is my Website.".length} delay={700} avgTypingDelay={20}/>
