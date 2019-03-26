@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import marked from 'marked';
-// import blog from '../posts/blog/2019-03-25-test.md';
+// import blog from '../_posts/blog/';
 
 class Articles extends Component {
     constructor(props) {
@@ -16,25 +16,25 @@ class Articles extends Component {
     }
 
     componentDidMount() {
-        // const readmePath = require('../_posts/blog/2019-03-25-test.md');
-        // fetch(readmePath)
-        // .then(response => {
-        //     return response.text()
-        // })
-        // .then(text => {
-        //     this.setState({
-        //         markdown: marked(text)
-        //     })
-        // });
-        const blogs = require('../_posts');
-        console.log(typeof(blogs));
+        const readmePath = require('../_posts/blog/2019-03-25-test.md');
+        fetch(readmePath)
+        .then(response => {
+            return response.text()
+        })
+        .then(text => {
+            this.setState({
+                markdown: marked(text)
+            })
+        });
+        // const blogs = require('../_posts/blog/');
+        // console.log(blogs.values);
     }
 
     render() {
         const {markdown} = this.state;
         return (
             <div>
-                {/* <article dangerouslySetInnerHTML={{__html: markdown}}></article> */}
+                <article dangerouslySetInnerHTML={{__html: markdown}}></article>
             </div>
         );
     }
