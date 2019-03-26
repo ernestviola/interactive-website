@@ -10,6 +10,18 @@ import { faIgloo } from '@fortawesome/free-solid-svg-icons'
 library.add(faIgloo)
 
 class App extends Component {
+
+  componentDidMount() {
+    const script = document.createElement("script");
+    
+    
+
+    script.src = "https://identity.netlify.com/v1/netlify-identity-widget.js";
+    script.async = true;
+
+    document.body.appendChild(script);
+    
+  }
   render() {
     return (
       <div className="App">

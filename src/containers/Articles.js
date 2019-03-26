@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import marked from 'marked';
-// import * as blogs from '../../_posts/blog';
+// import blogs from '../_posts/blog/2019-03-25-test.md';
 
 class Articles extends Component {
     constructor(props) {
         super(props);
     }    
 
-    // componentDidMount() {
-    //     console.log(blogs);
-    // }
+    componentDidMount() {
+        
+    }
 
     render() {
         return (

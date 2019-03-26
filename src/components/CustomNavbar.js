@@ -25,7 +25,7 @@ class CustomNavbar extends Component {
     render() {
         return (
             
-            <nav class="navbar">
+            <nav className="navbar">
                 <span className="navbar-toggle" id="js-navbar-toggle" onClick={this.handleClick}>
                     <FontAwesomeIcon icon={faCoffee} />
                 </span>
